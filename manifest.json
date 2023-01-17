@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name":    "Domain Magnifier",
+    "version": "0.1",
+    "description": "Adds a bar on top of the page with large text containing the domain of current website. If the domain contains some unusual characters, these characters are bolded. The add-on intention is to lower phishing efficacy.",
+    
+    "icons": {
+        "48": "icons/icon_48.png"
+      },
+
+    "content_scripts": [{
+        "matches":    ["*://*/*"],
+        "js":         ["domain_magnifier.js"],
+        "run_at":     "document_end",
+        "all_frames": false
+    }]
+}
