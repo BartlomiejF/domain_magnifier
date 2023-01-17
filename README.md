@@ -1,4 +1,5 @@
 ![](icons/icon_48.png)  # Domain Magnifier
+
 ![](docs/u0QsraKtoheHWlysmZqr--1--pcbm7.jpg)
 ## Embrace the power of a unicorn with magnifier! Bolster your phishing defence! 
 
